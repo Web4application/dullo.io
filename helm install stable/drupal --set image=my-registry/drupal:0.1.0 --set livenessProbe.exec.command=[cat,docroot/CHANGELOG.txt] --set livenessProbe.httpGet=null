@@ -1,0 +1,9 @@
+livenessProbe:
+  httpGet:
+    path: /user/login
+    port: http
+  exec:
+    command:
+    - cat
+    - docroot/CHANGELOG.txt
+  initialDelaySeconds: 120
