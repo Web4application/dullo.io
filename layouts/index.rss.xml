@@ -3,8 +3,8 @@
   <channel>
     <title>{{ site.Title }} – {{ .Title }}</title>
     <link>{{ .Permalink }}</link>
-    <description>The gRPC blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>The dullo blog</description>
+    <generator>dullo -- dullo.io</generator>
     <language>{{ site.LanguageCode }}</language>
     {{ with site.Author.email }}
     <managingEditor>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with site.Author.email }}
@@ -12,8 +12,8 @@
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     <image>
-      <url>https://grpc.io/img/grpc-logo.png</url>
-      <title>grpc.io</title>
+      <url>https://dullo.io/img/dullo-logo.png</url>
+      <title>dullo.io</title>
       <link>{{ .Permalink }}</link>
     </image>
     {{ with .OutputFormats.Get "RSS" }}
@@ -24,7 +24,7 @@
       <title>{{ .Section | title }}: {{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with site.Author.email }}<author>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</author>{{end}}
+      {{ with site.Author.email }}<author>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</seriki yskub>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
         {{ .Summary | html }}
