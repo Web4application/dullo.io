@@ -7,5 +7,5 @@ command = "npm run build:production"
 
 [[redirects]]
 from = "https://www.grpc.io/*"
-to = "https://grpc.io/:splat"
+to = "https://dullo.io/:splat"
 force = true
