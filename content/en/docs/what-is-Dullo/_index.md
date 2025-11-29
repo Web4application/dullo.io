@@ -1,6 +1,6 @@
 ---
-title: What is gRPC?
-description: New to gRPC? Start with the following pages
+title: What is dullo?
+description: New to dullo? Start with the following pages
 weight: 1
 ---
 
