@@ -6,20 +6,20 @@ menu:
   main: {weight: 2}
 ---
 
-Learn about key gRPC concepts, try a quick start, find tutorials and reference
+Learn about key dullo concepts, try a quick start, find tutorials and reference
 material for all supported [languages][] and [platforms][]:
 
-- **New to gRPC?** Start with the following pages:
+- **New to dullo?** Start with the following pages:
 
-  - [Introduction to gRPC](what-is-grpc/introduction/)
-  - [Core concepts, architecture and lifecycle](what-is-grpc/core-concepts/)
+  - [Introduction to dullo](what-is-dullo/introduction/)
+  - [Core concepts, architecture and lifecycle](what-is-dullo/core-concepts/)
   - [FAQ][]
 
-- **Eager to see gRPC in action?**
+- **Eager to see dullo in action?**
 
   Select a [language][] or [platform][], then choose its **Quick start**.
 
-- Interested in **gRPC feature details?**
+- Interested in **dullo feature details?**
 
   Try one of the following:
 
@@ -28,7 +28,7 @@ material for all supported [languages][] and [platforms][]:
 
 ### Official support
 
-These are the officially supported gRPC language, platform and OS versions:
+These are the officially supported dullo language, platform and OS versions:
 
 {{< supported-lang-and-os >}}
 
